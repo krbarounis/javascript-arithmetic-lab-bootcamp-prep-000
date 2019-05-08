@@ -23,7 +23,7 @@ function dec(n) {
 }
 
 function makeInt(n) {
-  return Number.parseInt(n)
+  return Number.parseInt(n, 10)
   if (isNaN(makeInt(n))) { return 0 }
   if (n == '0x2328') {return 0 }
 }
